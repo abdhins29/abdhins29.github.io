@@ -9,6 +9,34 @@
 
     <title>Web Portofolio - AbdhiNS</title>
 </head>
+<style>
+    .jumbotron {
+        background-image: url("img/header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .panel-footer {
+        background-image: url("img/footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contact .row {
+        background-image: url("img/footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contact .row a {
+        color: white;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+</style>
 <body>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-2 bg-white border-bottom shadow-sm">
         <h5 class="my-0 mr-md-auto font-weight-normal">Abdhi Negriansyah Syuhada</h5>
@@ -21,40 +49,31 @@
     </div>
 
     <main role="main">
-        <div class="jumbotron jumbotron-fluid bg-dark">
-            <div class="container text-center">
-                <img src="img/foto.jpg" alt="Image" width="300" class="rounded-circle mb-1">                
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container text-left">
+                <img src="img/foto_jas.jpg" alt="Image" width="250" height="250" class="rounded-circle">                
                 <h5 style="color:white;" class="display-4">Abdhi Negriansyah Syuhada</h5>
-                <hr>
-                <p style="color:white;" class="lead">Junior Programmer / Junior Back-end Developer</p>
+                <p style="color:white;" class="lead">Junior Programmer / Junior Web Developer / Junior Back-end Developer</p>
             </div>
         </div>
 
         <div class="container" id="about">
+            <h5 class="col-md-12 text-center display-4">About</h5>
+            <hr>
+            <hr>
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="display-4">About</h5>
-                    <hr>
+                <div class="col-md-12 text-justify">
+                    <p>Hi! My name is Abdhi. I’m 23 years old. I graduated in October 2019 with a majoring in Information System from the Universitas Putra Indonesia YPTK Padang with a GPA of 3.22. I work as a Freelancer Web Aplication less than 1 year experience with specializing PHP Programming Language and MySQL Database for college students. I work as a Digital Activator and Team Leader Community Promotion less than 3 months for company. Now I work as a Programmer for 3 months for the company with specializing Framework Codeigniter with AJAX and MySQL Database.</p>
+                    <p>If you want to see My Curriculum Vitae, you can click this <a href="file/CV_ABDHI NEGRIANSYAH SYUHADA.pdf" class="btn btn-outline-primary btn-md"><i class="fas fa-download mr-2"></i>Download</a></p>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>Hi! My name is Abdhi Negriansyah Syuhada. I'm 23 years old. I'm a graduated in October 2019 from the Universitas Putra Indonesia YPTK Padang in majoring Information System with a GPA of 3.22. I work as a Freelancer Web Aplication with over 1 years experience specialzing in PHP Programming Language and MySQL Database for student in college. Now I work as a Management Trainee in the IT Department for 3 months with specialzing in Framework Codeigniter and MySQL Database. I can also use AJAX.</p>
-                </div>
-            </div>
+            <hr>
         </div>
-
-        <hr>
-
+        <br>
         <div class="container" id="portofolio">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="display-4">Portofolio</h5>
-                    <hr>
-                </div>
-            </div>
-
+            <h5 class="col-md-12 text-center display-4">Portofolio</h5>
+            <hr>
+            <hr>
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="card">
@@ -105,37 +124,21 @@
                     </div>
                 </div>
             </div>
+            <hr>
         </div>
-
-        <hr>
-
-        <div class="container" id="contact">
+        <br>
+        <div class="container-fluid" id="contact">
+            <h5 class="col-md-12 text-center display-4">Contact</h5>
+            <hr>
+            <hr>
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5 class="display-4">Contact</h5>
-                    <hr>
-                </div>
+                <a class="col-md-12 mt-3" href="https://wa.me/6285761524700"><i class="fab fa-whatsapp mr-2"></i>(+62) 857-6152-4700</a>
+                <a class="col-md-12" href="https://abdhins29@gmail.com"><i class="fas fa-envelope mr-2"></i>abdhins29@gmail.com</a>
+                <a class="col-md-12" href="https://linkedin.com/in/abdhins"><i class="fab fa-linkedin mr-2"></i>abdhins</a>
+                <a class="col-md-12" href="https://facebook.com/abdhins"><i class="fab fa-facebook-square mr-2"></i>abdhins</a>
+                <a class="col-md-12" href="https://twitter.com/abdhins"><i class="fab fa-twitter-square mr-2"></i>abdhins</a>
             </div>
-            
-            <footer class="panel-footer">
-                <div class="row bg-dark">
-                    <div class="col-lg-12 form-label text-center mt-5" style="color: white;">
-                        <i class="fas fa-envelope mr-1"></i>: abdhins29@gmail.com
-                    </div> 
-                    <div class="col-lg-12 text-center mt-5" style="color: white;">
-                        <p>
-                            <i class="fab fa-facebook-square mr-1"></i>: abdhins
-                        </p>
-                    </div> 
-                    <div class="col-lg-12 text-center mt-5 mb-5" style="color: white;">
-                        <p>
-                            <i class="fab fa-twitter-square mr-1"></i>: @abdhins
-                        </p>
-                    </div> 
-                </div>
-            </footer>
         </div>
-
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
